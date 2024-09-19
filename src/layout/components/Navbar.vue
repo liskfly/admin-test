@@ -10,12 +10,12 @@
 
     <div class="right-menu">
        <template>
-        <message  class="right-menu-item hover-effect"/>
+        <!-- <message  class="right-menu-item hover-effect"/> -->
         <!-- 全屏显示 -->
-        <screenfull id="screenfull" class="right-menu-item hover-effect" />
+        <!-- <screenfull id="screenfull" class="right-menu-item hover-effect" /> -->
 
       </template>
-      <el-dropdown class="avatar-container" trigger="click">
+      <!-- <el-dropdown class="avatar-container" trigger="click">
         <div class="avatar-wrapper">
           <img src="../../assets/profile.jpg" class="user-avatar" />
           <i class="el-icon-caret-bottom" />
@@ -28,7 +28,7 @@
             <span style="display: block">退出登录</span>
           </el-dropdown-item>
         </el-dropdown-menu>
-      </el-dropdown>
+      </el-dropdown> -->
     </div>
   </div>
 </template>

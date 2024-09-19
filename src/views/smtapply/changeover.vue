@@ -535,41 +535,41 @@ export default {
       cancellation3: false,
       pic1: [
         {
-          img: require("@/assets/remind/ebf17c0d502bcc01e03b0dc3172f276.jpg"),
+          img: require("@/assets/remind/模块一(1).jpg"),
         },
         {
-          img: require("@/assets/remind/a83eb0032dd7ad0c5a1c40a962caedc.jpg"),
+          img: require("@/assets/remind/模块一(2).jpg"),
         },
         {
-          img: require("@/assets/remind/6b807733ec4689bace23b4a69646c9d.jpg"),
+          img: require("@/assets/remind/模块一(3).jpg"),
         },
         {
-          img: require("@/assets/remind/b3d8c21c7ebdbe518d4c29ceb6e39c7.jpg"),
+          img: require("@/assets/remind/模块一(4).jpg"),
         },
       ],
       pic2: [
         {
-          img: require("@/assets/remind/9725d3bb4a0a245ff546935b045d439.jpg"),
+          img: require("@/assets/remind/模块二(1).jpg"),
         },
         {
-          img: require("@/assets/remind/e390fc42c2da1925f3465cb69a271d9.jpg"),
+          img: require("@/assets/remind/模块二(2).jpg"),
         },
         {
-          img: require("@/assets/remind/c4ef500dd67bb918f9852ac9d650211.jpg"),
-        },
-        {
-          img: require("@/assets/remind/5aced34c7f924e0d5e66ddf564eb93a.jpg"),
+          img: require("@/assets/remind/模块二(3).jpg"),
         },
       ],
       pic3: [
         {
-          img: require("@/assets/remind/7a1aac5b2f0a44c71f06793ad2e73a2.jpg"),
+          img: require("@/assets/remind/模块三(1).jpg"),
         },
         {
-          img: require("@/assets/remind/445d5d52c2dc3a529a6b4a26ac8fd7a.jpg"),
+          img: require("@/assets/remind/模块三(2).jpg"),
         },
         {
-          img: require("@/assets/remind/35e1d187cf429bcaeb9ae9909bdb29e.jpg"),
+          img: require("@/assets/remind/模块三(3).jpg"),
+        },
+        {
+          img: require("@/assets/remind/模块三(4).jpg"),
         },
       ],
       schedule: [],
@@ -816,7 +816,7 @@ export default {
       this.dialogVisible2 = true;
       setTimeout(() => {
         this.cancellation2 = true;
-      }, 16000);
+      }, 12000);
     },
     closeCancellation3() {
       this.$nextTick(() => {
@@ -826,7 +826,7 @@ export default {
       this.dialogVisible3 = true;
       setTimeout(() => {
         this.cancellation3 = true;
-      }, 12000);
+      }, 16000);
     },
     getStatus(value) {
       if (
